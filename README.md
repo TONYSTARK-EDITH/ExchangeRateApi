@@ -1,12 +1,12 @@
 # Exchange Rate Api
 
-Welcome String is a Python library will allow to use the api functionality of ExchangeRateApi, it will make use of the
-request library in order to make the requests from the ExchangeRateApi.<br>
-https://www.exchangerate-api.com/
+ExchangeRateApi is a Python library which allows to use the api functionality of [ExchangeRateApi](https://www.exchangerate-api.com/), it will make use of the
+request library in order to make the requests from the ExchangeRateApi.
+
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Welcome-String.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Exchange Rate Api
 
 ```bash
 pip install exchangerateapi
@@ -121,4 +121,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[MIT](https://github.com/TONYSTARK-EDITH/ExchangeRateApi/blob/934b1406451f5fcaaeb5da7462ad5ea59909847c/LICENSE.md)
+[MIT](https://github.com/TONYSTARK-EDITH/ExchangeRateApi/blob/ae5048945f9c910579eeb6f4e7db2734c017bc4e/LICENSE)
