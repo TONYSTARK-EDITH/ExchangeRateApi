@@ -18,7 +18,7 @@ setuptools.setup(
             'ExchangeRateApi = ExchangeRateApi.ExchangeRateApi:main'
         ]
     },
-    keywords="ExchangeRate,api,python,terminal"
+    keywords="ExchangeRate,ExchangeRateApi,python,terminal,ExchangeRates"
     ,
     classifiers=[
         "Programming Language :: Python :: 3",

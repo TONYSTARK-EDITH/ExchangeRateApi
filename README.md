@@ -1,6 +1,6 @@
 # Exchange Rate Api
 
-ExchangeRateApi is a Python library which allows to use the api functionality of [ExchangeRateApi](https://www.exchangerate-api.com/), it will make use of the
+ExchangeRateApi is an unofficial python library which allows to use the api functionality of [ExchangeRateApi](https://www.exchangerate-api.com/), it will make use of the
 request library in order to make the requests from the ExchangeRateApi.
 
 
@@ -77,35 +77,35 @@ api.search("in") # returns a dictionary if is_print is False
 
   Command line interface has been added to this package
 
-  ```bash
-    usage: ExchangeRateApi [-h] -k KEY [-q QUOTA] [-l LATEST] [-c CURRENCY] [-p [PAIR [PAIR ...]]] [-e ENRICHED ENRICHED] [-H [HISTORICAL [HISTORICAL ...]]]
-                       [-s [SEARCH [SEARCH ...]]]
+```bash
+  usage: ExchangeRateApi [-h] -k KEY [-q QUOTA] [-l LATEST] [-c CURRENCY] [-p [PAIR [PAIR ...]]] [-e ENRICHED ENRICHED] [-H [HISTORICAL [HISTORICAL ...]]]
+                      [-s [SEARCH [SEARCH ...]]]
 
-    This library will allow the user to use the api functionality of ExchangeRateApi, it will make use of the request library in order to make the requests from
-    the ExchangeRateApi.
+  This library will allow the user to use the api functionality of ExchangeRateApi, it will make use of the request library in order to make the requests from
+  the ExchangeRateApi.
 
-    optional arguments:
-    -h, --help            show this help message and exit
-    -k KEY, --key KEY     Api key for the ExchangeRateApi
-    -q QUOTA, --quota QUOTA
-                            Gives the quota for the api key
-    -l LATEST, --latest LATEST
-                            Gives the latest exchange rate of the currency
-    -c CURRENCY, --currency CURRENCY
-                            Gives the supported codes
-    -p [PAIR [PAIR ...]], --pair [PAIR [PAIR ...]]
-                            Converts the first currency to the second currency and if any amount is given it will be converted to the specified amount Format -
-                            Currency Currency Amount = 1
-    -e ENRICHED ENRICHED, --enriched ENRICHED ENRICHED
-                            Converts the first currency to the second currency and if any amount is given it will be converted to the specified amount and gives
-                            the enriched data The information contains : - Country - Two-Letter Code - Currency Name - Currency Name short - Symbol - Flag Url
-                            Format - Currency Currency
-    -H [HISTORICAL [HISTORICAL ...]], --historical [HISTORICAL [HISTORICAL ...]]
-                            Gives the historical data of the currency and users should provide date, month and year Format - Currency Date Month Year Amount = 1
-    -s [SEARCH [SEARCH ...]], --search [SEARCH [SEARCH ...]]
-                            Searches for the currency codes in order to give the valid currency code Format - Key is_country=0 Provide is_country as 1 if you
-                            want to get the currency code for the country else leave it empty
-  ```
+  optional arguments:
+  -h, --help            show this help message and exit
+  -k KEY, --key KEY     Api key for the ExchangeRateApi
+  -q QUOTA, --quota QUOTA
+                          Gives the quota for the api key
+  -l LATEST, --latest LATEST
+                          Gives the latest exchange rate of the currency
+  -c CURRENCY, --currency CURRENCY
+                          Gives the supported codes
+  -p [PAIR [PAIR ...]], --pair [PAIR [PAIR ...]]
+                          Converts the first currency to the second currency and if any amount is given it will be converted to the specified amount Format -
+                          Currency Currency Amount = 1
+  -e ENRICHED ENRICHED, --enriched ENRICHED ENRICHED
+                          Converts the first currency to the second currency and if any amount is given it will be converted to the specified amount and gives
+                          the enriched data The information contains : - Country - Two-Letter Code - Currency Name - Currency Name short - Symbol - Flag Url
+                          Format - Currency Currency
+  -H [HISTORICAL [HISTORICAL ...]], --historical [HISTORICAL [HISTORICAL ...]]
+                          Gives the historical data of the currency and users should provide date, month and year Format - Currency Date Month Year Amount = 1
+  -s [SEARCH [SEARCH ...]], --search [SEARCH [SEARCH ...]]
+                          Searches for the currency codes in order to give the valid currency code Format - Key is_country=0 Provide is_country as 1 if you
+                          want to get the currency code for the country else leave it empty
+```
 
   <img src="https://drive.google.com/uc?export=view&id=1dXPaeYrGS3Rj7EiGlZimhVJeyPEwmgdU" alt="cli" style="zoom:150%;" />
 
