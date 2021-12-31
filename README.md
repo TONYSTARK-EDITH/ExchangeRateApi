@@ -107,9 +107,9 @@ api.search("in") # returns a dictionary if is_print is False
                             want to get the currency code for the country else leave it empty
   ```
 
-  <img src="https://drive.google.com/uc?export=view&id=1m1ad3q3bQwi-JQK4VRoiYUxO43BHF4Ct" alt="cli" style="zoom:150%;" />
+  <img src="https://drive.google.com/uc?export=view&id=1dXPaeYrGS3Rj7EiGlZimhVJeyPEwmgdU" alt="cli" style="zoom:150%;" />
 
-  <img src="https://drive.google.com/uc?export=view&id=1l8uHF_h9gXjFhADZLeGVJ1vPBTAy-Ixa" style="zoom:150%;"  alt="cli-optional" />
+  <img src="https://drive.google.com/uc?export=view&id=1Co-WTym1lZm5Zk3P3jd5X-zh1oOar6Gr" style="zoom:150%;"  alt="cli-optional" />
 
 Test cases has been included
 
