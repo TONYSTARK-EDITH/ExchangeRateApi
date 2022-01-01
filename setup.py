@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ExchangeRateApi",
-    version="1.0.0",
+    version="0.1.0",
     author="Tony Stark",
     author_email="manthirajak@gmail.com",
     description="This library uses the api functionality of ExchangeRateApi, it will make use of the request library in order to make the requests from the ExchangeRateApi.",
